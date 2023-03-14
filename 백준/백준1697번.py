@@ -16,7 +16,7 @@ def bfs():
                 q.append(nx)
 
 
-maxV = 10 ** 5
+maxV = 100000
 d = [0] * (maxV + 1)
 n, k = map(int, sys.stdin.readline().split())
 
